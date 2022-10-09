@@ -1,8 +1,20 @@
+channels:
+  - conda-forge
 dependencies:
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
   - nbserverproxy
-  - pyviz::param=1.9.0
-  - pyviz::pyviz_comms=0.7.2
+  - pyviz::param
+  - pyviz::pyviz_comms
   - pyviz::datashader
   - bokeh::bokeh
-  - pyviz::panel=0.5.1
-  - tornado<6  
+  - pyviz::panel
+  - tornado 
+  - jupyter-panel-proxy
